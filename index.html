@@ -10,27 +10,7 @@
 <body>
   <div class="container">
     <h2>Tic Tac Toe</h2>
-    <div class="box">
-      <table class="ticTable">
-        <tbody>
-          <tr>
-            <td class="borderBottom borderRight"></td>
-            <td class="borderBottom borderRight"></td>
-            <td class="borderBottom"></td>
-          </tr>
-          <tr>
-            <td class="borderBottom borderRight"></td>
-            <td class="borderBottom borderRight"></td>
-            <td class="borderBottom"></td>
-          </tr>
-          <tr>
-            <td class="borderRight"></td>
-            <td class="borderRight"></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <hr></hr>
     <div class="controls">
       <span class="borderBottom">Player One</span>
       <span class="borderBottom">Player Two</span>
@@ -45,6 +25,27 @@
       <p>New Game</p>
       <!-- Game Status Messages: Game in progress | Player 1 wins | Player 2 wins -->
       <button>Restart</button>
+    </div>
+    <div class="board">
+      <table class="ticTable">
+        <tbody>
+          <tr>
+            <td id="0" class="borderBottom borderRight"></td>
+            <td id="1" class="borderBottom borderRight"></td>
+            <td id="2" class="borderBottom"></td>
+          </tr>
+          <tr>
+            <td id="3" class="borderBottom borderRight"></td>
+            <td id="4" class="borderBottom borderRight"></td>
+            <td id="5" class="borderBottom"></td>
+          </tr>
+          <tr>
+            <td id="6" class="borderRight"></td>
+            <td id="7" class="borderRight"></td>
+            <td id="8"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </body>

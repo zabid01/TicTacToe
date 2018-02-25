@@ -57,7 +57,13 @@ hr{
 
 .controls p {
   color: grey;
+  cursor: pointer;
+
 }
+.controls p:hover {
+  color: blue;
+}
+
 
 .controls button {
   margin: 25px 15px;

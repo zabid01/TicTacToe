@@ -38,7 +38,10 @@ function verify(p){
           game ='over';
           return true;
   }
-  else console.log('NO one wins!');
+  else {
+    document.getElementById('status').innerText='Draw!';
+    console.log('NO one wins!');
+  }
 }
 function decider (p) {
   if (p=='X') {
